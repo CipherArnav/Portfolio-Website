@@ -16,7 +16,7 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certification">Certifications</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
      </nav>
@@ -33,7 +33,7 @@
                    <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                    <li><a href="#certification" onclick="toggleMenu()">Certifications</a></li>
-                   <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                   <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </div>
             </div>
      </nav>
@@ -47,14 +47,135 @@
             <p class = "section__text__p2">Frontend Developer</p>
             <div class = "btn-container">
                 <button class = "btn btn-color-2" onclick="window.open('./assets/Resume3.pdf')">Download CV</button>
-                <button class = "btn btn-color-1" onclick="location.href='./#contacts'">Contact Info</button>
+                <button class = "btn btn-color-1" onclick="location.href='./#contactc'">Contact Info</button>
             </div>
-            <div id = "section__container">
+            <div id = "socials-container">
                 <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href = 'https://www.linkedin.com/in/arnav-b78446256/'"/>
                 <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href = 'https://github.com/CipherArnav'"/>
+                <img src="./assets/X.png" alt="My Twitter profile" class="icon" onclick="location.href = 'https://x.com/CipherArnav'"/>
+                <img src="./assets/leetcode.png" alt="My Leetcode profile" class="icon" onclick="location.href = 'https://leetcode.com/u/CipherArnav/'"/>
+                <img src="./assets/gfg.png" alt="My Geeksforgeeks profile" class="icon" onclick="location.href = 'https://www.geeksforgeeks.org/user/arnav1ofxt/'"/>
+
             </div>
         </div>
      </section>
-    <script src="script.js"></script>
+     <section id = "about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="Experience-icon" class="icon"/>
+                        <h3>Skills</h3>
+                        <p>Frontend Developer |<br/>Android Developer |<br/>DSA Enthusiast</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" alt="Education-icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.Tech in CSE, KIIT Bhubaneswar (2022–2026)
+                        </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hi! I'm Arnav, a passionate Frontend and Android Developer with a solid grasp of DSA. 
+                        I love building responsive web and mobile apps that solve real-world problems. 
+                        Currently pursuing B.Tech in CSE at KIIT, I'm continuously learning through projects,
+                         coding challenges, and the #100DaysOfCode journey. From crafting portfolio
+                          sites to cloning apps like Spotify and Zomato, I enjoy turning ideas into clean, functional code.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href = './#skills'">
+     </section>
+     <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>Github</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Android Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills Icon"class = "icon"/>
+                            <div>
+                                <h3>Kotlin</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+     </section>
+    <section id = "projects">
+        
+    </section>
+    <script src="script.js" defer></script>
 </body>
 </html>
